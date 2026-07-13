@@ -1,6 +1,4 @@
-
 # Data Structures and Algorithms (DSA) 
-
 Welcome to my personal repository dedicated to mastering Data Structures and Algorithms! This repository serves as a centralized, well-organized log of my problem-solving journey across platforms like **LeetCode** and **GeeksforGeeks (GFG)**.
 
 ---
