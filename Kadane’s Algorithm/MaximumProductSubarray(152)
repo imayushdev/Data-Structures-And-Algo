@@ -1,0 +1,18 @@
+class Solution {
+    public int maxProduct(int[] nums) {
+        int minEnding = nums[0];
+        int maxEnding = nums[0];
+        int result = nums[0];
+        for(int i =1;i<nums.length;i++){
+            int valOne = nums[i];
+            int valTwo=nums[i]*maxEnding;
+            int valThree = nums[i]*minEnding;
+            maxEnding=Math.max(valOne,(Math.max(valTwo,valThree)));
+            minEnding =Math.min(valOne,(Math.min(valTwo,valThree)));
+            result = Math.max(result,(Math.max(maxEnding,minEnding)));
+
+        }
+
+    return result;
+    }
+}
