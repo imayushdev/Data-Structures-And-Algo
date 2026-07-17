@@ -1,0 +1,15 @@
+class Solution {
+    static int smallestSumSubarray(int a[], int size) {
+        // your code here
+        int bestEnding = a[0];
+        int ans = a[0];
+        for(int i = 1 ; i<a.length;i++){
+            int valOne=bestEnding+a[i];
+            int valTwo=a[i];
+            bestEnding=Math.min(valOne,valTwo);
+            ans = Math.min(bestEnding,ans);
+
+        }
+        return ans;
+    }
+}
