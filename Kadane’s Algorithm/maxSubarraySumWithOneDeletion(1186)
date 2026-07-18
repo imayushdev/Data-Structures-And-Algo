@@ -1,0 +1,27 @@
+lass Solution{
+public int maximumSum(int[] arr) {
+    int noDelete = arr[0];
+    int oneDelete = Integer.MIN_VALUE;
+    int result = arr[0];
+    
+    for (int i = 1; i < arr.length; i++) {
+        int prevNoDelete = noDelete;
+        int prevOneDelete = oneDelete;
+        
+        noDelete = Math.max(arr[i], prevNoDelete + arr[i]);
+        
+        if (prevOneDelete == Integer.MIN_VALUE) {
+            oneDelete = prevNoDelete;
+        } else {
+            oneDelete = Math.max(prevNoDelete, prevOneDelete + arr[i]);
+        }
+        
+        result = Math.max(result, noDelete);
+        if (oneDelete != Integer.MIN_VALUE) {
+            result = Math.max(result, oneDelete);
+        }
+    }
+    
+    return result;
+}
+}
