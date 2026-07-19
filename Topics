@@ -1,0 +1,57 @@
+This is a minimalist, pattern-based DSA roadmap optimized for cracking coding interviews and sharpening problem-solving skills. No academic fluff, just core interview topics.
+
+---
+
+### 1. Arrays & Strings (एरे और स्ट्रिंग्स)
+- [ ] **Two Pointers Technique** (दोनों कोनों से पॉइंटर चलाना)
+- [ ] **Sliding Window** (लगातार आने वाले सब-एरे को ट्रैक करना)
+- [ ] **Prefix Sum** (पिछले एलिमेंट्स का सम पहले से स्टोर रखना)
+- [ ] **Kadane’s Algorithm** (सबसे बड़ा सम वाला सब-एरे खोजना)
+- [ ] **ASCII Math** (कैरेक्टर को नंबर में बदलना, जैसे `c - 'a'`)
+
+### 2. HashMap & HashSet (हैश मैप और सेट)
+- [ ] **Frequency Counting** (कौन सा एलिमेंट कितनी बार आया है गिनना)
+- [ ] **O(1) Lookup** (बिना लूप चलाए किसी वैल्यू को तुरंत ढूंढना)
+- [ ] **Subarray Sum Equals K** (हैशमैप + प्रीफिक्स सम का कॉम्बिनेशन)
+
+### 3. Linked List (लिंक्ड लिस्ट)
+- [ ] **Pointer Manipulation** (नोड्स को जोड़ना, तोड़ना और पॉइंटर्स बदलना)
+- [ ] **Reverse a Linked List** (पूरी लिस्ट को उल्टा करना)
+- [ ] **Slow & Fast Pointer** (लूप ढूंढना और बीच का नोड निकालना)
+- [ ] **LRU Cache Implementation** (डबली लिंक्ड लिस्ट + हैशमैप का मिक्स)
+
+### 4. Stack & Queue (स्टैक और क्यू)
+- [ ] **Valid Parentheses Pattern** (ब्रैकेट्स का बैलेंस चेक करना)
+- [ ] **Monotonic Stack** (तत्वों को बढ़ते/घटते क्रम में रखना, जैसे `bcabc` प्रॉब्लम)
+- [ ] **Queue for Level Order** (जो पहले आया वो पहले प्रोसेस होगा)
+
+### 5. Binary Search (बाइनरी सर्च)
+- [ ] **Standard Binary Search** (सॉर्टेड एरे में एलिमेंट ढूंढना)
+- [ ] **Modified Binary Search** (घूमे हुए यानी Rotated एरे में सर्च करना)
+- [ ] **Binary Search on Answer** (जब जवाब की एक रेंज पता हो और बेस्ट आंसर चुनना हो)
+
+### 6. Recursion & Backtracking (रिकर्शन और बैकट्रैकिंग)
+- [ ] **Base Case & State Tracing** (बड़ी प्रॉब्लम को छोटे टुकड़ों में तोड़ना)
+- [ ] **Backtracking / Choice & Undo** (एक रास्ता चुनना, न बनने पर वापस आकर दूसरा चुनना)
+
+### 7. Binary Tree & BST (बाइनरी ट्री और बीएसटी)
+- [ ] **DFS - Depth First Search** (गहराई में जाना - Pre/In/Post-order)
+- [ ] **BFS - Breadth First Search** (लेवल-बाय-लेवल देखना)
+- [ ] **LCA - Lowest Common Ancestor** (दो नोड्स का सबसे करीबी कॉमन पैरेंट)
+- [ ] **BST Properties** (लेफ्ट साइड छोटा और राइट साइड बड़ा होने का नियम यूज़ करना)
+
+### 8. Graphs (ग्राफ्स)
+- [ ] **Adjacency List Representation** (जावा में ग्राफ को स्टोर करना)
+- [ ] **BFS & DFS on Graph** (शॉर्टेस्ट पाथ निकालना और कंपोनेंट्स गिनना)
+- [ ] **Cycle Detection** (ग्राफ में गोल चक्कर या लूप का पता लगाना)
+- [ ] **Topological Sort / Kahn's Algorithm** (काम को डिपेंडेंसी के हिसाब से ऑर्डर करना)
+
+### 9. Heap / Priority Queue (हेप)
+- [ ] **Top K Elements** (Kth सबसे बड़ा या छोटा एलिमेंट ढूंढना)
+- [ ] **Merge K Sorted Lists** (कई सॉर्टेड लिस्ट्स को आपस में मिलाना)
+
+### 10. Dynamic Programming (डायनेमिक प्रोग्रामिंग)
+- [ ] **Memoization / Top-Down** (उत्तरों को सेव करना ताकि दोबारा कैलकुलेट न करना पड़े)
+- [ ] **0/1 Knapsack Pattern** (चुनें या छोड़ें वाला लॉजिक)
+- [ ] **LCS - Longest Common Sequence** (दो स्ट्रिंग्स में कॉमन हिस्सा ढूंढना)
+- [ ] **MCM - Matrix Chain Multiplication Concept** (पार्टीशन करने का तरीका)
